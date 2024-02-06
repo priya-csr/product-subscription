@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/prdsubscription/clientlibs"/>
+    <filter root="/apps/prdsubscription/components"/>
+    <filter root="/apps/prdsubscription/i18n"/>
+</workspaceFilter>

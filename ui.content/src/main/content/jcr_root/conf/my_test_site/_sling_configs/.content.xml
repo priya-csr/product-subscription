@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured">
+    <rep:policy/>
+    <com.adobe.cq.wcm.core.components.internal.DataLayerConfig
+        jcr:primaryType="nt:unstructured"
+        enabled="{Boolean}true"/>
+    <com.adobe.cq.wcm.core.components.internal.services.pdfviewer.PdfViewerCaConfig
+        jcr:primaryType="nt:unstructured"
+        clientId="28b07c6be4d544f188dc2f36e33b196b"
+        reportSuiteId="\0"/>
+    <com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig/>
+    <com.adobe.aem.wcm.site.manager.config.SiteConfig
+        jcr:primaryType="nt:unstructured"
+        siteTemplatePath="/conf/global/site-templates/aem-site-template-standard-2.1.4"
+        themePackageName="my_test_site-theme"/>
+    <com.adobe.aem.dx.setup.automation.integrationData
+        jcr:primaryType="nt:unstructured"
+        integrationStatus="failed"
+        jobId="2024/2/4/7/15/0d3094fd-f1cc-40db-81db-cbe3af938f2d_58"
+        lastModified="{Date}2024-02-04T07:30:40.050+11:00"
+        reportSuites="my_test_site&lt;envId>a and my_test_site&lt;envId>p"/>
+</jcr:root>

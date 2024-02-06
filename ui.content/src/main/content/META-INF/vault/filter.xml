@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/my_test_site" mode="merge"/>
+    <filter root="/content/prdsubscription" mode="merge"/>
+    <filter root="/content/dam/prdsubscription" mode="merge">
+        <include pattern="/content/dam/prdsubscription(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/my_test_site/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments" mode="merge">
+      <include pattern="/content/experience-fragments/prdsubscription(/.*)?"/>
+  </filter>
+</workspaceFilter>

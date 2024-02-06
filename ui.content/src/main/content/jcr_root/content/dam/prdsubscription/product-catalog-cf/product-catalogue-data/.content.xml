@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="474906ea-7099-4fec-8273-160589141846">
+    <jcr:content
+        cq:name="product-catalogue-data"
+        cq:parentPath="/content/dam/prdsubscription/product-catalog-cf"
+        jcr:description="This content fragment holds product data as JSON"
+        jcr:lastModified="{Date}2024-01-29T23:05:16.208+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Product Catalogue data"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-01-29T23:05:16.208+11:00">
+        <data
+            cq:model="/conf/prdsubscription/settings/dam/cfm/models/product-catalogue"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                product_data="\[&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category1&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 300.00,&#xa;        &quot;priceMonthly&quot;: 30.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 200.00,&#xa;        &quot;priceMonthly&quot;: 20.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod3&quot;,&#xa;        &quot;priceAnnual&quot;: 400.00,&#xa;        &quot;priceMonthly&quot;: 40.00&#xa;      }&#xa;    ]&#xa;  },&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category2&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 350.00,&#xa;        &quot;priceMonthly&quot;: 34.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 250.00,&#xa;        &quot;priceMonthly&quot;: 24.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod3&quot;,&#xa;        &quot;priceAnnual&quot;: 450.00,&#xa;        &quot;priceMonthly&quot;: 44.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod4&quot;,&#xa;        &quot;priceAnnual&quot;: 470.00,&#xa;        &quot;priceMonthly&quot;: 46.00&#xa;      }&#xa;    ]&#xa;  },&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category3&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat3Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 600.00,&#xa;        &quot;priceMonthly&quot;: 60.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat3Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 700.00,&#xa;        &quot;priceMonthly&quot;: 70.00&#xa;      }&#xa;    ]&#xa;  }&#xa;]"
+                product_data_x0040_LastModified="{Date}2024-01-29T23:05:16.178+11:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0970fe65-97a3-47fe-9661-410280b097dd"
+                _x0040_string_x0040_model="/conf/prdsubscription/settings/dam/cfm/models/product-catalogue"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_product_data="\[&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category1&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 300.00,&#xa;        &quot;priceMonthly&quot;: 30.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 200.00,&#xa;        &quot;priceMonthly&quot;: 20.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat1Prod3&quot;,&#xa;        &quot;priceAnnual&quot;: 400.00,&#xa;        &quot;priceMonthly&quot;: 40.00&#xa;      }&#xa;    ]&#xa;  },&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category2&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 350.00,&#xa;        &quot;priceMonthly&quot;: 34.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 250.00,&#xa;        &quot;priceMonthly&quot;: 24.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod3&quot;,&#xa;        &quot;priceAnnual&quot;: 450.00,&#xa;        &quot;priceMonthly&quot;: 44.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat2Prod4&quot;,&#xa;        &quot;priceAnnual&quot;: 470.00,&#xa;        &quot;priceMonthly&quot;: 46.00&#xa;      }&#xa;    ]&#xa;  },&#xa;  {&#xa;    &quot;categoryType&quot;: &quot;category3&quot;,&#xa;    &quot;products&quot;: [&#xa;      {&#xa;        &quot;product&quot;: &quot;cat3Prod1&quot;,&#xa;        &quot;priceAnnual&quot;: 600.00,&#xa;        &quot;priceMonthly&quot;: 60.00&#xa;      },&#xa;      {&#xa;        &quot;product&quot;: &quot;cat3Prod2&quot;,&#xa;        &quot;priceAnnual&quot;: 700.00,&#xa;        &quot;priceMonthly&quot;: 70.00&#xa;      }&#xa;    ]&#xa;  }&#xa;]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

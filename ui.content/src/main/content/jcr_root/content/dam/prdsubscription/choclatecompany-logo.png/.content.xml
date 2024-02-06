@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a6c74260-791b-4f52-9794-85d142f831b8">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2024-02-05T10:13:18.191+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="XML:com.adobe.xmp: &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;XMP Core 5.4.0&quot;>&#xa;   &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;      &lt;rdf:Description rdf:about=&quot;&quot;&#xa;            xmlns:exif=&quot;http://ns.adobe.com/exif/1.0/&quot;>&#xa;         &lt;exif:PixelXDimension>668&lt;/exif:PixelXDimension>&#xa;         &lt;exif:PixelYDimension>442&lt;/exif:PixelYDimension>&#xa;      &lt;/rdf:Description>&#xa;   &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&#xa;"
+            dam:extracted="{Date}2024-02-05T10:13:15.730+11:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}144"
+            dam:Physicalheightininches="{Decimal}3.0696022510528564"
+            dam:Physicalwidthindpi="{Long}144"
+            dam:Physicalwidthininches="{Decimal}4.639127254486084"
+            dam:Progressive="no"
+            dam:sha1="a944b256777cbf90e9e901acd2ad055cf8e3cb04"
+            dam:size="{Long}253364"
+            dc:format="image/png"
+            exif:PixelXDimension="{Long}668"
+            exif:PixelYDimension="{Long}442"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}442"
+            tiff:ImageWidth="{Long}668"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

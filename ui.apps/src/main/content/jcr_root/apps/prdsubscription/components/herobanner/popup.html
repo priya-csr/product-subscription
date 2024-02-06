@@ -1,0 +1,31 @@
+<sly data-sly-use.heroBannerModel="com.slalom.aem.prdsubscription.demo.core.models.HerobannerModel" />
+<div class="cmp-herobnr__modal" id="popupModal">
+    <div class="cmp-herobnr__modal-content">
+        <span class="close">&times;</span>
+
+        <h2>${properties.popuptitle}</h2>
+
+        <div class="cmp-herobnr__modal-element">
+            <label for="categorty-dropdown">${properties.categorylabel}</label>
+            <select id="category-dropdown" name="categorty-dropdown">
+                <option value="">Select a Category Type</option>
+                <sly data-sly-list.key="${heroBannerModel.ProductDataFromCF}">
+                    <option value="${heroBannerModel.ProductDataFromCF[key]}">${key}</option>
+                </sly>
+            </select>
+        </div>
+        <div class="cmp-herobnr__modal-element">
+            <label for="product-dropdown">${properties.productlabel}</label>
+            <select id="product-dropdown" name="product-dropdown">
+                <option value="">Select a Product Type</option>
+            </select>
+            <div class="para-estimate">
+                <p>${properties.estimatetext}</p>
+                <p id="annualprice">$ XXX.XX annually OR</p>
+                <p id="monthlyprice-para">$ YY.YY monthly</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

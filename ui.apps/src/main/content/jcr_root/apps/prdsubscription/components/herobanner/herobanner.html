@@ -1,0 +1,15 @@
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html" data-sly-test.exists="${properties.text}" data-sly-call="${template.placeholder @isEmpty=!exists, classAppend='cmp-herobnr', emptyTextAppend=''}"/>
+<div class="cmp-herobnr">
+   <div class="cmp-herobnr__image" data-sly-resource="${'image' @ resourceType='prdsubscription/components/image'}"></div>
+   <div class="cmp-herobnr__content-container">
+      <div class="cmp-herobnr__title" data-sly-resource="${'title' @ resourceType='prdsubscription/components/title'}"></div>
+      <div class="cmp-herobnr__rte" data-sly-resource="${'rte' @ resourceType='prdsubscription/components/text'}"></div>
+      <div class="cmp-herobnr__cta-container">
+         <div class="cmp-herobnr__cta-est" data-sly-resource="${'estimatebtn' @ resourceType='prdsubscription/components/button'}"></div>
+         <div class="cmp-herobnr__cta-learnmore" data-sly-resource="${'learnmorebtn' @ resourceType='prdsubscription/components/button'}"></div>
+      </div>
+   </div>
+</div>
+
+<div data-sly-include="popup.html"></div>
+

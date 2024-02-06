@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:isContainer="{Boolean}true"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <popuptitle
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Popup title that will be displayed on top"
+                        fieldLabel="Popup title"
+                        name="./popuptitle"
+                        value="Get an Estimate"/>
+                    <caegorylabel
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Label displayed for Category type"
+                        fieldLabel="Category Label"
+                        name="./categorylabel"
+                        value="Select your Category"/>
+                    <producttypelabel
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Label displayed for Product type"
+                        fieldLabel="Product type Label"
+                        name="./productlabel"
+                        value="Select your Product"/>
+                    <estimatetext
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Estimate text"
+                        fieldLabel="Text displayed at the bottom showing the estimate"
+                        name="./estimatetext"
+                        value="Your estimate:"/>
+                    <pathbrowser
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dam/cfm/components/cfpicker"
+                        emptyText="Enter or select Content Fragment"
+                        fieldLabel="Product Catalog Content Fragment"
+                        name="./fileReference"
+                        pickerTitle="Select Content Fragment"
+                        rootPath="/content/dam/prdsubscription"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

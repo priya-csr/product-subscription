@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/my_test_site/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/my_test_site"
+        cq:redirectTarget="/content/my_test_site/en"
+        cq:template="/conf/my_test_site/settings/wcm/templates/home-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Product Subscription"
+        sling:configRef="/conf/my_test_site"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="core/wcm/components/page/v3/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <en/>
+</jcr:root>

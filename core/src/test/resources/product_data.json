@@ -1,67 +1,62 @@
-{
-  "jcr:primaryType": "dam:Asset",
-  "jcr:mixinTypes": [
-    "mix:referenceable",
-    "mix:versionable"
-  ],
-  "jcr:createdBy": "admin",
-  "jcr:versionHistory": "c51cc288-7fb5-4d1f-9961-1b37ceebc6d7",
-  "jcr:predecessors": [
-    "7c88195f-8f8f-4afb-96cd-fe845f863c54"
-  ],
-  "jcr:created": "Tue Feb 06 2024 18:47:04 GMT+1100",
-  "jcr:baseVersion": "7c88195f-8f8f-4afb-96cd-fe845f863c54",
-  "jcr:isCheckedOut": true,
-  "jcr:uuid": "c319e48d-8250-4fc4-87b8-99069fd50958",
-  "jcr:content": {
-    "jcr:primaryType": "dam:AssetContent",
-    "jcr:title": "Product Subscription",
-    "jcr:lastModifiedBy": "admin",
-    "contentFragment": true,
-    "cq:name": "product-subscription",
-    "jcr:lastModified": "Mon Feb 05 2024 01:21:48 GMT+1100",
-    "lastFragmentSave": "Mon Feb 05 2024 01:21:48 GMT+1100",
-    "cq:parentPath": "/content/dam/prdsubscription/product-catalog-cf",
-    "renditions": {
-      "jcr:primaryType": "nt:folder",
-      "jcr:createdBy": "admin",
-      "jcr:created": "Tue Feb 06 2024 18:51:58 GMT+1100"
-    },
-    "related": {
-      "jcr:primaryType": "nt:unstructured"
-    },
-    "indexedData": {
-      "jcr:primaryType": "nt:unstructured",
-      "master": {
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:mixinTypes": [
-          "dam:IndexedFragmentData"
-        ],
-        "@string@model": "/conf/my_test_site/settings/dam/cfm/models/product-catalogue",
-        "@stringArray@variations": [],
-        "jcr:uuid": "fb39aaeb-3ca0-4548-a473-e15d422873c3",
-        "string@product_data": "[\n  {\n    \"categoryType\": \"category1\",\n    \"products\": [\n      {\n        \"product\": \"cat1Prod1\",\n        \"priceAnnual\": 300.00,\n        \"priceMonthly\": 30.00\n      },\n      {\n        \"product\": \"cat1Prod2\",\n        \"priceAnnual\": 200.00,\n        \"priceMonthly\": 20.00\n      },\n      {\n        \"product\": \"cat1Prod3\",\n        \"priceAnnual\": 400.00,\n        \"priceMonthly\": 40.00\n      }\n    ]\n  },\n  {\n    \"categoryType\": \"category2\",\n    \"products\": [\n      {\n        \"product\": \"cat2Prod1\",\n        \"priceAnnual\": 350.00,\n        \"priceMonthly\": 34.00\n      },\n      {\n        \"product\": \"cat2Prod2\",\n        \"priceAnnual\": 250.00,\n        \"priceMonthly\": 24.00\n      },\n      {\n        \"product\": \"cat2Prod3\",\n        \"priceAnnual\": 450.00,\n        \"priceMonthly\": 44.00\n      },\n      {\n        \"product\": \"cat2Prod4\",\n        \"priceAnnual\": 470.00,\n        \"priceMonthly\": 46.00\n      }\n    ]\n  },\n  {\n    \"categoryType\": \"category3\",\n    \"products\": [\n      {\n        \"product\": \"cat3Prod1\",\n        \"priceAnnual\": 600.00,\n        \"priceMonthly\": 60.00\n      },\n      {\n        \"product\": \"cat3Prod2\",\n        \"priceAnnual\": 700.00,\n        \"priceMonthly\": 70.00\n      }\n    ]\n  }\n]\n"
+[
+  {
+    "categoryType": "category1",
+    "products": [
+      {
+        "product": "cat1Prod1",
+        "priceAnnual": 300.00,
+        "priceMonthly": 30.00
+      },
+      {
+        "product": "cat1Prod2",
+        "priceAnnual": 200.00,
+        "priceMonthly": 20.00
+      },
+      {
+        "product": "cat1Prod3",
+        "priceAnnual": 400.00,
+        "priceMonthly": 40.00
       }
-    },
-    "metadata": {
-      "jcr:primaryType": "nt:unstructured",
-      "jcr:mixinTypes": [
-        "cq:Taggable"
-      ]
-    },
-    "data": {
-      "jcr:primaryType": "nt:unstructured",
-      "_strucVersion": 1,
-      "cq:model": "/conf/my_test_site/settings/dam/cfm/models/product-catalogue",
-      "master": {
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:mixinTypes": [
-          "cq:Taggable",
-          "dam:cfVariationNode"
-        ],
-        "product_data@LastModified": "Mon Feb 05 2024 01:21:47 GMT+1100",
-        "product_data": "[\n  {\n    \"categoryType\": \"category1\",\n    \"products\": [\n      {\n        \"product\": \"cat1Prod1\",\n        \"priceAnnual\": 300.00,\n        \"priceMonthly\": 30.00\n      },\n      {\n        \"product\": \"cat1Prod2\",\n        \"priceAnnual\": 200.00,\n        \"priceMonthly\": 20.00\n      },\n      {\n        \"product\": \"cat1Prod3\",\n        \"priceAnnual\": 400.00,\n        \"priceMonthly\": 40.00\n      }\n    ]\n  },\n  {\n    \"categoryType\": \"category2\",\n    \"products\": [\n      {\n        \"product\": \"cat2Prod1\",\n        \"priceAnnual\": 350.00,\n        \"priceMonthly\": 34.00\n      },\n      {\n        \"product\": \"cat2Prod2\",\n        \"priceAnnual\": 250.00,\n        \"priceMonthly\": 24.00\n      },\n      {\n        \"product\": \"cat2Prod3\",\n        \"priceAnnual\": 450.00,\n        \"priceMonthly\": 44.00\n      },\n      {\n        \"product\": \"cat2Prod4\",\n        \"priceAnnual\": 470.00,\n        \"priceMonthly\": 46.00\n      }\n    ]\n  },\n  {\n    \"categoryType\": \"category3\",\n    \"products\": [\n      {\n        \"product\": \"cat3Prod1\",\n        \"priceAnnual\": 600.00,\n        \"priceMonthly\": 60.00\n      },\n      {\n        \"product\": \"cat3Prod2\",\n        \"priceAnnual\": 700.00,\n        \"priceMonthly\": 70.00\n      }\n    ]\n  }\n]\n"
+    ]
+  },
+  {
+    "categoryType": "category2",
+    "products": [
+      {
+        "product": "cat2Prod1",
+        "priceAnnual": 350.00,
+        "priceMonthly": 34.00
+      },
+      {
+        "product": "cat2Prod2",
+        "priceAnnual": 250.00,
+        "priceMonthly": 24.00
+      },
+      {
+        "product": "cat2Prod3",
+        "priceAnnual": 450.00,
+        "priceMonthly": 44.00
+      },
+      {
+        "product": "cat2Prod4",
+        "priceAnnual": 470.00,
+        "priceMonthly": 46.00
       }
-    }
+    ]
+  },
+  {
+    "categoryType": "category3",
+    "products": [
+      {
+        "product": "cat3Prod1",
+        "priceAnnual": 600.00,
+        "priceMonthly": 60.00
+      },
+      {
+        "product": "cat3Prod2",
+        "priceAnnual": 700.00,
+        "priceMonthly": 70.00
+      }
+    ]
   }
-}
+]

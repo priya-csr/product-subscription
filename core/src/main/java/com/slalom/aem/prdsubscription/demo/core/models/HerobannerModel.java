@@ -42,7 +42,7 @@ public class HerobannerModel {
 
 	}
 
-	public Map<String, String> getProductDataFromCF() {
+	public Map<String, String> getProductDataAsMap() {
 
 		String jsonString = getProdDetailsJson();
 

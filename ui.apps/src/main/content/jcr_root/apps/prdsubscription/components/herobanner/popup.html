@@ -9,8 +9,8 @@
             <label for="categorty-dropdown">${properties.categorylabel}</label>
             <select id="category-dropdown" name="categorty-dropdown">
                 <option value="">Select a Category Type</option>
-                <sly data-sly-list.key="${heroBannerModel.ProductDataFromCF}">
-                    <option value="${heroBannerModel.ProductDataFromCF[key]}">${key}</option>
+                <sly data-sly-list.key="${heroBannerModel.ProductDataAsMap}">
+                    <option value="${heroBannerModel.ProductDataAsMap[key]}">${key}</option>
                 </sly>
             </select>
         </div>

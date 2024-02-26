@@ -1,0 +1,69 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "layout": "responsiveGrid",
+  "sling:resourceType": "core/wcm/components/container/v1/container",
+  "cq:styleIds": [
+    "1612998379971"
+  ],
+  "herobanner": {
+    "jcr:primaryType": "nt:unstructured",
+    "popuptitle": "Get an Estimate",
+    "fileReference": "/content/dam/prdsubscription/product-catalog-cf/product-subscription",
+    "jcr:lastModifiedBy": "admin",
+    "categorylabel": "Select your Category",
+    "jcr:lastModified": "Mon Feb 05 2024 01:24:45 GMT+1100",
+    "productlabel": "Select your Product",
+    "sling:resourceType": "prdsubscription/components/herobanner",
+    "estimatetext": "Your estimate:",
+    "image": {
+      "jcr:primaryType": "nt:unstructured",
+      "imageFromPageImage": "false",
+      "fileReference": "/content/dam/prdsubscription/choclatecompany-logo.png",
+      "jcr:lastModifiedBy": "admin",
+      "alt": "The chocolate company logo",
+      "displayPopupTitle": "true",
+      "linkTarget": "_self",
+      "jcr:lastModified": "Tue Feb 06 2024 03:43:14 GMT+1100",
+      "titleValueFromDAM": "true",
+      "sling:resourceType": "prdsubscription/components/image",
+      "isDecorative": "false",
+      "disableLazyLoading": "false",
+      "altValueFromDAM": "false"
+    },
+    "title": {
+      "jcr:primaryType": "nt:unstructured",
+      "jcr:title": "LUNAR NEW YEAR",
+      "jcr:lastModifiedBy": "admin",
+      "type": "h1",
+      "linkTarget": "_self",
+      "jcr:lastModified": "Mon Feb 05 2024 00:27:25 GMT+1100",
+      "sling:resourceType": "prdsubscription/components/title"
+    },
+    "rte": {
+      "jcr:primaryType": "nt:unstructured",
+      "jcr:lastModifiedBy": "admin",
+      "text": "<p>Celebrate the Year of the Dragon with Lindt. Choose from a selection of limited edition Lunar New Year products, chocolate hampers, boxed chocolates and much more.</p>\r\n",
+      "jcr:lastModified": "Mon Feb 05 2024 00:26:55 GMT+1100",
+      "sling:resourceType": "prdsubscription/components/text",
+      "textIsRich": "true"
+    },
+    "estimatebtn": {
+      "jcr:primaryType": "nt:unstructured",
+      "jcr:title": "Get an estimate",
+      "jcr:lastModifiedBy": "admin",
+      "id": "openModalBtn",
+      "linkTarget": "_self",
+      "jcr:lastModified": "Mon Feb 05 2024 00:27:41 GMT+1100",
+      "sling:resourceType": "prdsubscription/components/button"
+    },
+    "learnmorebtn": {
+      "jcr:primaryType": "nt:unstructured",
+      "jcr:title": "Learn more",
+      "jcr:lastModifiedBy": "admin",
+      "linkURL": "/content/prdsubscription/en/article",
+      "linkTarget": "_self",
+      "jcr:lastModified": "Mon Feb 05 2024 09:47:28 GMT+1100",
+      "sling:resourceType": "prdsubscription/components/button"
+    }
+  }
+}

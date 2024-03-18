@@ -1,8 +1,8 @@
-#Hero Banner
+# Hero Banner
 
-herobanner component written in HTL.
+Herobanner component written in HTL.
 
-Below core components are used to build hero banner using data-sly-resource
+Below core components and features are used to build hero banner using data-sly-resource
 
 1. Image - Leverage Adobe Core Image
 2. Title - Leverage Adobe Core Title
@@ -12,7 +12,7 @@ Below core components are used to build hero banner using data-sly-resource
 
 
 
-##Features
+## Features
 
 
 Following properties of pop up modal can be configured
@@ -24,7 +24,7 @@ Following properties of pop up modal can be configured
 - Allows configuration of CF to read product schema
 
 ### Enabling Get Estimate popup
-Get estimate button should be configured with ID : <b>openModalBtn</b> in order to open pop up modal on click of get estimate. 
+Get estimate button should be configured with ID : <b>openModalBtn</b> in order to open pop up modal on click of get estimate.
 This ID is used in popup Java script.
 
 ### Use Object
@@ -42,10 +42,8 @@ The following configuration properties are used and can be configured with Edit 
     ./fileReference
 
 
-The component provides a prdsubscription.components.herobanner client library category that contains a recommended base CSS styling and JavaScript component. 
+The component provides a prdsubscription.components.herobanner client library category that contains a recommended base CSS styling and JavaScript component.
 
 ### BEM Description
 
 ``` BLOCK .cmp-herobnr ELEMENT cmp-accordion__item ELEMENT cmp-herobnr__title ELEMENT cmp-herobnr__cta-container  ELEMENT cmp-herobnr__image ELEMENT cmp-herobnr__cta-learnmore ELEMENT cmp-herobnr__modal ELEMENT cmp-herobnr__modal ELEMENT mp-herobnr__modal-content```
-
-
